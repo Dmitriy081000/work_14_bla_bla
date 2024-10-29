@@ -20,6 +20,7 @@
     display: none;
     @include media-bp-up(md) {
       display: flex;
+      flex-direction: row;
       column-gap: 20px;
     }
     @include media-bp-up(lg) {
@@ -46,6 +47,10 @@
     line-height: normal;
     text-decoration: none;
     align-self: center;
+    transition: all .3s;
+    &:hover {
+      color: #000;
+    }
   }
 
   &__nav {
@@ -65,8 +70,8 @@
       position: relative;
       display: inline-block;
       transition: all .3s;
-      width: 10px;
-      height: 1px;
+      width: 16px;
+      height: 2px;
       background-color: #fff;
     }
   }
@@ -74,7 +79,7 @@
   &__btn.active {
     .header__btn-line:first-child {
       transform: rotate(45deg);
-      top: 3px;
+      top: 4px;
     }
 
     .header__btn-line:nth-child(2) {
@@ -83,7 +88,7 @@
 
     .header__btn-line:nth-child(3) {
       transform: rotate(-45deg);
-      bottom: 3px;
+      bottom: 4px;
     }
   }
 }
