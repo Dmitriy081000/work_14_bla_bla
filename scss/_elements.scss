@@ -1,0 +1,39 @@
+@import 'mixin';
+
+.main-title {
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  @include media-bp-up(lg) {
+    line-height: 110px;
+    font-size: 90px;
+  }
+}
+
+.secondary-title {
+  color: #020202;
+  text-align: center;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 600;
+  @include media-bp-up(lg){
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+.subtitle {
+  color: #878787;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  @include media-bp-up(md) {
+    line-height: 36px;
+    margin-top: 38px;
+  }
+}
