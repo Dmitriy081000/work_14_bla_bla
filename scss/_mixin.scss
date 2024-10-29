@@ -1,0 +1,13 @@
+@use 'variables' as vars;
+
+@mixin media-bp-up($size) {
+	$screen: map-get(vars.$grid-breakpoints, $size);
+	@if $screen != null {
+		@media (min-width: $screen) {
+			@content;
+		}
+	} @else {
+		@warn "Нет брейкпоинта #{$size} в bp.$grid-breakpoints!";
+	}
+}
+
