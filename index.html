@@ -1,151 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
-        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="scss/main.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+          integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="scss/main.css">
+    <title>Document</title>
 </head>
 <body>
 <header class="header">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-7 col-md-3">
-        <a>
-          <img class="header__logo" src="assets/imgs/headerLogo.svg" alt="logo">
-        </a>
-      </div>
-      <div class="col-3 d-md-flex justify-content-md-center">
-        <a href="#" class="header__link">Home</a>
-      </div>
-      <button class="header__btn d-md-none">
-        <span class="header__btn-line"></span>
-        <span class="header__btn-line"></span>
-        <span class="header__btn-line"></span>
-      </button>
-      <div class="col-12 col-md-6">
-        <nav class="header__nav">
-          <ul class="header__navList justify-content-md-end">
-            <li><a href="" class="header__link">Package</a></li>
-            <li><a href="" class="header__link">Destination</a></li>
-            <li><a href="" class="header__link">Blog</a></li>
-            <li><a href="" class="header__link">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-7 col-md-3">
+                <a>
+                    <img class="header__logo" src="assets/imgs/headerLogo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="col-3 d-md-flex justify-content-md-center">
+                <a href="#" class="header__link">Home</a>
+            </div>
+                <button class="header__btn d-md-none">
+                    <span class="header__btn-line"></span>
+                    <span class="header__btn-line"></span>
+                    <span class="header__btn-line"></span>
+                </button>
+            <div class="col-12 col-md-6">
+                <nav class="header__nav">
+                    <ul class="header__navList justify-content-md-end">
+                        <li><a href="" class="header__link">Package</a></li>
+                        <li><a href="" class="header__link">Destination</a></li>
+                        <li><a href="" class="header__link">Blog</a></li>
+                        <li><a href="" class="header__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>  
 </header>
-<section class="hero">
-  <div class="container">
-    <div class="row">
-      <div class="col col-lg-6">
-        <div class="parallax-item">
-          <h1 class="main-title">Make in
-            your journey.</h1>
-          <p class="subtitle">Explore the world with what you love beautiful natural beauty.</p>
-          <div class="tour-filter">
-            <form class="tour-filter__form" action="" method="post">
-              <select class="tour-filter__input">
-                <option selected disabled>Location</option>
-                <option>Ukraine</option>
-                <option>Egypt</option>
-                <option>USA</option>
-              </select>
-              <input class="tour-filter__input" type="date" name="tourDate" id="tourDate">
-              <select class="tour-filter__input" name="tourPeople" id="tourPeople">
-                <option selected disabled>People</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 or more</option>
-              </select>
-              <button class="tour-filter__submit" type="submit">Explore now</button>
-            </form>
-          </div>
+    
+        
+<footer class="footer">
+    <div class="container">
+        <div class="row row__footer">
+            <div class="col-7 col-md-3 footer__img">
+                <a>
+                    <img class="footer__logo" src="assets/imgs/headerLogo.svg" alt="logo">
+                    <p class="footer__motto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra condimentum.</p>
+                </a>    
+            </div>
+            <div class="col-12 col-md-6">
+                <nav class="footer__nav">
+                    <ul class="footer__navlist justify-content-md-end">
+                        <li>Quick Link:</li>
+                        <li><a class="footer__link" href="#">Home</a></li>
+                        <li><a class="footer__link" href="">About Us</a></li>
+                        <li><a class="footer__link" href="">Tours</a></li>
+                        <li><a class="footer__link" href="">Contact</a></li>
+                    </ul>
+                    <ul class="footer__navlist justify-content-md-end">
+                        <li>Contact Information:</li>
+                        <li>732 Despard St, Atlanta</li>
+                        <li>+97 888 8888</li>
+                        <li>+97 999 9999</li>
+                        <li>info@traveller.com</li>
+                    </ul>
+                    <ul class="footer__navlist justify-content-md-end">
+                        <li>Follow Us:</li>
+                        <li><a class="footer__link" href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="23" height="23" viewBox="0 0 16 16">
+                            <path d="M 4.773438 1 C 2.695313 1 1 2.695313 1 4.773438 L 1 10.230469 C 1 12.304688 2.695313 14 4.773438 14 L 10.230469 14 C 12.304688 14 14 12.304688 14 10.226563 L 14 4.773438 C 14 2.695313 12.304688 1 10.226563 1 Z M 4.773438 2 L 10.226563 2 C 11.765625 2 13 3.234375 13 4.773438 L 13 10.226563 C 13 11.765625 11.765625 13 10.230469 13 L 4.773438 13 C 3.234375 13 2 11.765625 2 10.230469 L 2 4.773438 C 2 3.234375 3.234375 2 4.773438 2 Z M 11.5 3 C 11.222656 3 11 3.222656 11 3.5 C 11 3.777344 11.222656 4 11.5 4 C 11.777344 4 12 3.777344 12 3.5 C 12 3.222656 11.777344 3 11.5 3 Z M 7.5 4 C 5.574219 4 4 5.574219 4 7.5 C 4 9.425781 5.574219 11 7.5 11 C 9.425781 11 11 9.425781 11 7.5 C 11 5.574219 9.425781 4 7.5 4 Z M 7.5 5 C 8.886719 5 10 6.113281 10 7.5 C 10 8.886719 8.886719 10 7.5 10 C 6.113281 10 5 8.886719 5 7.5 C 5 6.113281 6.113281 5 7.5 5 Z"></path>
+                            </svg></a></li>
+                        <li><a class="footer__link" href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50">
+                            <path d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 25.832031 46 A 1.0001 1.0001 0 0 0 26.158203 46 L 31.832031 46 A 1.0001 1.0001 0 0 0 32.158203 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 33 44 L 33 30 L 36.820312 30 L 38.220703 23 L 33 23 L 33 21 C 33 20.442508 33.05305 20.398929 33.240234 20.277344 C 33.427419 20.155758 34.005822 20 35 20 L 38 20 L 38 14.369141 L 37.429688 14.097656 C 37.429688 14.097656 35.132647 13 32 13 C 29.75 13 27.901588 13.896453 26.71875 15.375 C 25.535912 16.853547 25 18.833333 25 21 L 25 23 L 22 23 L 22 30 L 25 30 L 25 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 32 15 C 34.079062 15 35.38736 15.458455 36 15.701172 L 36 18 L 35 18 C 33.849178 18 32.926956 18.0952 32.150391 18.599609 C 31.373826 19.104024 31 20.061492 31 21 L 31 25 L 35.779297 25 L 35.179688 28 L 31 28 L 31 44 L 27 44 L 27 28 L 24 28 L 24 25 L 27 25 L 27 21 C 27 19.166667 27.464088 17.646453 28.28125 16.625 C 29.098412 15.603547 30.25 15 32 15 z"></path>
+                            </svg></a></li>
+                        <li><a class="footer__link" href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 16 16">
+                            <path d="M 2.296875 2 C 2.052875 2 1.9117344 2.2756094 2.0527344 2.4746094 L 6.4882812 8.7050781 L 2.0136719 14 L 3.3457031 14 L 7.09375 9.5527344 L 9.9609375 13.580078 C 10.148938 13.844078 10.452391 14 10.775391 14 L 13.703125 14 C 13.947125 14 14.088266 13.724391 13.947266 13.525391 L 9.2753906 6.9628906 L 13.457031 2 L 12.154297 2 L 8.6738281 6.1191406 L 6.0390625 2.4199219 C 5.8510625 2.1559219 5.5476094 2 5.2246094 2 L 2.296875 2 z M 3.6542969 3 L 5.2246094 3 L 12.345703 13 L 10.775391 13 L 3.6542969 3 z"></path>
+                            </svg></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-</section>
-<section class="products">
-  <div class="container">
-    <div class="row">
-      <h2 class="secondary-title">Explore new worlds with exotic natural scenery</h2>
-      <p class="subtitle">Explore the world with what you love beautiful natural beauty.</p>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="swiper products__slider">
-          <div class="products__slider-nav">
-            <div class="products__slider-prev">
-              <i class='bx bx-chevron-left'></i>
-            </div>
-            <div class="products__slider-next">
-              <i class='bx bx-chevron-right' ></i>
-            </div>
-          </div>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide products__slide">
-              <a href="#" class="products__slide-link">
-                <img class="products__slide-image" src="assets/imgs/country1.jpg" alt="">
-              </a>
-              <div class="products__slide-text">
-                <p class="products__slide-title">Bali, Indonesia.</p>
-                <p class="products__slide-descr">Bali is a beautiful tourist spot and is visited by many travelers.</p>
-              </div>
-            </div>
-            <div class="swiper-slide products__slide">
-              <a href="#" class="products__slide-link">
-                <img class="products__slide-image" src="assets/imgs/country2.jpg" alt="">
-              </a>
-              <div class="products__slide-text">
-                <p class="products__slide-title">Bali, Indonesia.</p>
-                <p class="products__slide-descr">Bali is a beautiful tourist spot and is visited by many travelers.</p>
-              </div>
-            </div>
-            <div class="swiper-slide products__slide">
-              <a href="#" class="products__slide-link">
-                <img class="products__slide-image" src="assets/imgs/country3.jpg" alt="">
-              </a>
-              <div class="products__slide-text">
-                <p class="products__slide-title">Bali, Indonesia.</p>
-                <p class="products__slide-descr">Bali is a beautiful tourist spot and is visited by many travelers.</p>
-              </div>
-            </div>
-            <div class="swiper-slide products__slide">
-              <a href="#" class="products__slide-link">
-                <img class="products__slide-image" src="assets/imgs/country2.jpg" alt="">
-              </a>
-              <div class="products__slide-text">
-                <p class="products__slide-title">Bali, Indonesia.</p>
-                <p class="products__slide-descr">Bali is a beautiful tourist spot and is visited by many travelers.</p>
-              </div>
-            </div>
-          </div>
-          <div class="products__slider-pagination"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>

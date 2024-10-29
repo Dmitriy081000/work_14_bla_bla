@@ -7,7 +7,7 @@
 			@content;
 		}
 	} @else {
-		@warn "Нет брейкпоинта #{$size} в $grid-breakpoints!";
+		@warn "Нет брейкпоинта #{$size} в bp.$grid-breakpoints!";
 	}
 }
 
